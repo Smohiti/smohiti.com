@@ -137,7 +137,7 @@ text-align: center;
 
 span.answer {
   color: #ccc;
-  word-wrap: break-word;
+   word-wrap: break-word;
 }
 
 #about p {
@@ -668,6 +668,7 @@ nav ul li {
 nav ul li a {
   color: #f2f2f2;
   opacity: 0.6;
+  text-align: center;
 }
 nav ul #name:hover {
   color: #f2f2f2;
