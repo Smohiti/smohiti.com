@@ -2,16 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 	<title>Saeed Mohiti | Blog</title>
-	<description>Feed created by FiveFilters.org</description>
+	<description>Bloging for SPO600</description>
 	<link>https://smohiti.com/blog.html</link>
 	<item>
-		<title>Uses</title>
-		<link>https://alemesa.com/2017/08/01/uses.html</link>
-		<description></description>
-	</item>
-	<item>
-		<title>Web Development Resources</title>
-		<link>https://alemesa.com/2017/06/01/web-dev-resources.html</link>
+		<title>SPO600 Lab 1</title>
+		<link>https://smohiti.com/lab1.html</link>
 		<description></description>
 	</item>
 </channel>
