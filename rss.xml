@@ -2,8 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 	<title>Saeed Mohiti | Blog</title>
-	<description>Bloging for SPO600</description>
+	<description>Blogging for SPO600</description>
 	<link>https://smohiti.com/blog.html</link>
+	<atom:link href="http://smohiti.com/rss.xml"
+     rel="self" type="application/rss+xml" />
+	
 	<item>
 		<title>SPO600 Lab 1</title>
 		<link>https://smohiti.com/lab1.html</link>
