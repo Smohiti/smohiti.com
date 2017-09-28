@@ -7,7 +7,154 @@
 	<item>
 		<title>SPO600 Lab 1</title>
 		<link>https://smohiti.com/lab1.html</link>
-		<description></description>
+		<description>
+		
+	<h3>SPO600 Lab 1</h3>
+	  <h2>comparison of two open source software packages</h2>
+         <!-- <section class="entry-content">-->
+            
+            <h4>
+            I was struggling to find out what does the open source software package and license mean to do the Lab1.
+	    After searching on google I found some sources the get the idea.
+            First, I had to know what kind of the licenses are exist for open sources software’s. this directed me to the: https://opensource.org/licenses
+            So, the popular licenses are:
+
+            </h4>
+               <ol><li>Apache License 2.0</li>
+		<li>BSD 3-Clause "New" or "Revised" license</li>
+
+                <li>BSD 2-Clause "Simplified" or "FreeBSD" license</li>
+
+                <li>GNU General Public License (GPL)</li>
+
+                <li>GNU Library or "Lesser" General Public License (LGPL)</li>
+
+                <li>MIT license</li>
+
+                <li>Mozilla Public License 2.0</li>
+
+                <li>Common Development and Distribution License</li>
+
+                <li>Eclipse Public License</li>
+               </ol>
+
+	   <h4>
+		Then I searched the open source software package through google and I found some open source software with different license, randomly I selected 2 of them:
+<br>
+		Metafresh: is an Open Source / Free Software Enterprise Resource Planning (ERP) software designed and developed for Small and medium-sized companies. The development repository is publicly available on GitHub.
+<br>
+<br>
+		Metasfresh is an actively maintained fork of ADempiere and can be used and distributed freely. It does not require a contributor license agreement from partners or contributors. There is no closed source code, and the planning and development happen openly in the community.
+<br>
+		https://en.wikipedia.org/wiki/Metasfresh
+<br>
+<br>
+		As I mentioned above their repository is on Github, which is the License document are there in their repo. In License.md shows the version and type of license which is:
+<br>
+<br>
+			GNU GENERAL PUBLIC LICENSE
+                		   Version 2, June 1991
+<br>
+<br>
+
+		In order to contribute we can see the detail on the Contribute.md:
+	   </h4>
+		
+	   <h2>How to contribute</h2>
+<ul>
+<li>If you don't yet have one, create a github account for yourself.</li>
+<li>Create a fork of the metasfresh repositotory you want to contribute to.</li>
+<li>Make your contribution and create a pull request.</li>
+<li>We will review and comment on the pull request. We may suggest some 
+changes or improvements or alternatives. We will always thread your work
+ and of course also yourself with respect, even in case we choose not to
+ incorporate it into metasfresh.</li>
+</ul>
+
+<h4>
+The process of creating and maintaining a fork with git and github is explained in this article. Note that at that article's end, there is also a link to this article about pull requests.
+If you need help, don't hesitate to contact us, for example on our metasfresh gitter chat.
+We know that our documentation is still patchy and are keen to improve it!
+</h4>
+
+<br>
+<br>
+<h4>
+It seems the contributors like to make a copy into their repository and add changes, then pull request as it explained above on Fork method.
+<br>
+<br>
+The 2nd open source software that is selected is Firefox on web browsers and networking and internet section.
+<br>
+
+ The Firefox is a free open source web browser developed by the Mozilla Foundation and its subsidiary Mozilla Corporation. The license that used by Mozilla is MPL 2.0 (Mozilla Public License 2.0).<br>
+Their development repository and document is also available on Github (https://github.com/mozilla).<br>
+There are lots of files on their repo and I select the pdf.js randomly, in this folder has its own license and contribution file also.
+The license shows : <br>
+mozilla/pdf.js is licensed under the <br>
+Apache License 2.0<br>
+<br>
+
+Under the README.md we can find the Contributing <br>
+Contributing<br>
+<br>
+PDF.js is an open source project and always looking for more contributors. To get involved, visit:
+<br>
+<br>
+</h4>
+<ul>
+<li><a href="https://github.com/mozilla/pdf.js/blob/master/.github/CONTRIBUTING.md">Issue Reporting Guide</a></li>
+<li><a href="https://github.com/mozilla/pdf.js/wiki/Contributing">Code Contribution Guide</a></li>
+<li><a href="https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions">Frequently Asked Questions</a></li>
+<li><a href="https://github.com/mozilla/pdf.js/issues?direction=desc&amp;labels=5-good-beginner-bug&amp;page=1&amp;sort=created&amp;state=open">Good Beginner Bugs</a></li>
+<li><a href="https://github.com/mozilla/pdf.js/milestones">Priorities</a></li>
+<li><a href="https://github.com/mozilla/pdf.js/wiki/Weekly-Public-Meetings">Attend a Public Meeting</a></li>
+</ul>
+
+<h4>
+Feel free to stop by #pdfjs on irc.mozilla.org for questions or guidance.<br>
+And when I click on the Code Contribution Guide this detail will appear:<br>
+Contributing code<br>
+Below is an overview of how to contribute code to the PDF.js project. The basic workflow is as follows:<br>
+
+</h4>
+<ol>
+<li>Fork</li>
+<li>Create feature branch</li>
+<li>Make changes</li>
+<li>Run lint and testing</li>
+<li>Push changes to your fork/branch</li>
+<li>Create pull request</li>
+<li>Code review and automated testing</li>
+<li>Merge into master</li>
+</ol>
+
+<h4>
+As seen in the list, this project uses the fork method also, in addition the contributor has to lint and test then push the changes to their own repo and make pull request, and finally merge to the master.
+<br>
+In order to check the one of the pull request in terms of identify the software change ("patch") and review the process of issues and problems, I selected the:
+<br>
+<a href="https://github.com/mozilla/pdf.js/pull/8650">https://github.com/mozilla/pdf.js/pull/8650</a><br>
+the title is Parse content disposition header. As seen, there are 20 conversations, 2 commits and 4 files changed. There are 4 reviewers on this project.
+<br>
+The first post commented on 23rd of July and collaboration started right after that to fix the issues.
+<br>
+This project ended on 10th of August and as the contributors mentioned fixed different issues like styling.
+<br>
+<br>
+As far as I understood, the project process is containing the contributor’s conversation on how they are trying to solve the problems along with multiple commits.
+<br>
+Reviewers can contributors can add comment on their post. 
+<br>
+The advantage to this approach is that every step is documented and sorted with all commits, so everyone can check the step of the processes. The other project, metafresh, used the same method. 
+
+
+</h4>	
+		
+		
+		
+		
+		
+		</description>
 	</item>
 </channel>
 </rss>
